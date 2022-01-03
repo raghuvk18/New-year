@@ -1,0 +1,40 @@
+@@ -1,40 +1,40 @@
+#
+# Licensed to the Apache Software Foundation (ASF) under one or more
+# contributor license agreements.  See the NOTICE file distributed with
+# this work for additional information regarding copyright ownership.
+# The ASF licenses this file to You under the Apache License, Version 2.0
+# (the "License"); you may not use this file except in compliance with
+# the License.  You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+name: Feature request
+description: Suggest an idea for seatunnel
+title: "[Feature][Module Name] Feature title"
+labels: ["Feature"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        For better global communication, Please write in English.
+        If you feel the description in English is not clear, then you can append description in Chinese, thanks!
+  - type: checkboxes
+    attributes:
+      label: Search before asking
+      description: >
+        Please make sure to search in the [feature](https://github.com/InterestingLab/seatunnel/issues?q=is%3Aissue+label%3A%22Feature%22) first
+        Please make sure to search in the [feature](https://github.com/apache/incubator-seatunnel/issues?q=is%3Aissue+label%3A%22Feature%22) first
+        to see whether the same feature was requested already.
+      options:
+        - label: >
+            I had searched in the [feature](https://github.com/InterestingLab/seatunnel/issues?q=is%3Aissue+label%3A%22Feature%22) and found no
+            I had searched in the [feature](https://github.com/apache/incubator-seatunnel/issues?q=is%3Aissue+label%3A%22Feature%22) and found no
+            similar feature requirement.
+          required: true
